@@ -38,7 +38,7 @@ string UserInterface::writeCurrentCity() {
 }
 
 // Метод для отображения списка названных городов
-void UserInterface::citiesVector(vector<string>& cities) {
+void UserInterface::citiesVector(vector<string> cities) {
     cout << "Названные города:" << endl;
     for (string& city : cities) {
         cout << "- " << city << endl;
