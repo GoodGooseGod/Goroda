@@ -12,5 +12,5 @@ public:
     string writePlayerName(int playerNumber);
     string writeCurrentCity();
     void citiesVector(vector<string> cities);
-    void result(string& winner);
+    void result(string winner);
 };

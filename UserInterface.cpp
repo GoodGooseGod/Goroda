@@ -47,6 +47,6 @@ void UserInterface::citiesVector(vector<string> cities) {
 }
 
 // Метод для отображения результатов игры
-void UserInterface::result(string& winner) {
+void UserInterface::result(string winner) {
     cout << "Игра окончена! Победитель: " << winner << endl;
 }
