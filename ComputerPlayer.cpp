@@ -32,7 +32,7 @@ string ComputerPlayer::chooseCity(char lastLetter) {
     return chosenCity;
 }
 void ComputerPlayer::setName(const string& playerName) {
-    name = "Компьютер";
+    Player::setName("Компьютер");
 }
 // Деструктор
 ComputerPlayer::~ComputerPlayer() {}

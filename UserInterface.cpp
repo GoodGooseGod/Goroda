@@ -25,7 +25,7 @@ void UserInterface::menu() {
 string UserInterface::writePlayerName(int playerNumber) {
     string name;
     cout << "¬ведите им€ игрока " << playerNumber << ": ";
-    getline(cin, name);
+    cin >> name;
     return name;
 }
 
@@ -33,7 +33,7 @@ string UserInterface::writePlayerName(int playerNumber) {
 string UserInterface::writeCurrentCity() {
     string city;
     cout << "¬ведите название города: ";
-    getline(cin, city);
+    cin >> city;
     return city;
 }
 

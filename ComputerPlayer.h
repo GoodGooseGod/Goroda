@@ -18,6 +18,9 @@ public:
     // Метод для выбора города случайным образом
     string chooseCity(char lastLetter);
 
+    //  Метод для задания имени компьютеру
+    void setName(const string& playerName);
+
     // Деструктор
     ~ComputerPlayer();
 };
