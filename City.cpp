@@ -40,7 +40,7 @@ void CityList::add_new_city(string new_city)
 // названный город
 void CityList::unic_check(string some_city)
 {
-	if (find(current_citys.begin, current_citys.end, some_city) != current_citys.end) { // если условие выполнилось, значит город нашелся
+	if (find(current_citys.begin(), current_citys.end(), some_city) != current_citys.end()) { // если условие выполнилось, значит город нашелся
 		cout << "Введенный город уже был. Введите другой город ";
 	}
 }
@@ -49,7 +49,7 @@ void CityList::unic_check(string some_city)
 // (есть ли в possible_citys)
 void CityList::is_real_check(string some_city)
 {
-	if (find(possible_citys.begin, possible_citys.end, some_city) = possible_citys.end) { // если условие выполнилось, значит город нашелся
+	if (find(possible_citys.begin(), possible_citys.end(), some_city) = possible_citys.end()) { // если условие выполнилось, значит город нашелся
 		cout << "Введенного города не существует. Введите другой город ";
 	}
 }
