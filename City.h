@@ -22,6 +22,6 @@ public:
 	void unic_check(string some_city);
 	void is_real_check(string some_city);
 	string last_city();
-	vector <string> current_citys(); 
-	~CityList();
+	vector <string> get_current_citys();
+	~CityList() { };
 };
