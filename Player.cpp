@@ -8,12 +8,19 @@ Player::Player(const string& playerName) : name(playerName), wins(0), draws(0) {
 
 // Метод для задания имени игрока
 void Player::setName(const string& playerName) {
-        name = playerName;
+    name = playerName;
 }
 
 // Метод для получения имени игрока
 string Player::getName(){
     return name;
+}
+
+// Метод для ввода города
+string Player::chooseCity(char lastLetter) { 
+    string str;
+    cin >> str;
+    return str;
 }
 
 // Метод для увеличения количества побед

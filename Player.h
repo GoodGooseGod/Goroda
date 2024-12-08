@@ -18,6 +18,7 @@ public:
     void addWin(); // Метод для увеличения количества побед
     void addDraw(); // Метод для добавления ничьи
     void displayStats(); // Метод для отображения статистики
+    virtual string chooseCity(char lastLetter); // Метод для ввода города
     ~Player(); // Деструктор
 };
 
