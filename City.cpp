@@ -66,10 +66,3 @@ vector<string> CityList::get_current_citys()
 	return current_citys(); 
 }
 
-CityList::~CityList()
-{
-	delete[] current_citys;
-	delete[] possible_citys;
-	cout << "Все города удалены!" << endl;
-}
-

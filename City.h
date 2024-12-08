@@ -23,5 +23,5 @@ public:
 	void is_real_check(string some_city);
 	string last_city();
 	vector <string> get_current_citys();
-	~CityList();
+	~CityList() { };
 };
