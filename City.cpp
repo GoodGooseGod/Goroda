@@ -61,11 +61,10 @@ string CityList::last_city()
 }
 
 // функция вернут все города, которые в игре
-vector<string> CityList::current_citys()
+vector<string> CityList::get_current_citys()
 {
 	return current_citys(); 
 }
-
 
 CityList::~CityList()
 {
